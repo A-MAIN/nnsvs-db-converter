@@ -6,6 +6,8 @@ import librosa
 
 # no clue how else to solve the circular imports lmao
 from utils.conv_tools import get_pitch
+# also tgm, you forgot this.
+from utils.conv_tools import combine_labels
 
 class Segment: # should've been named segment in hindsight...
     def __init__(self, labels):
